@@ -1,0 +1,22 @@
+.d1{
+    background-color: black;
+	height:175px;
+	border: 1px solid;
+	}
+
+.d2{
+	border: 1px solid;
+	float:left;
+	height:350px;
+}
+
+.d3{
+	border:1px solid;
+	float:right;
+	height:350px;
+}
+.d4{
+	background-color: grey;
+	border:1px solid;
+	height:200px;
+}
