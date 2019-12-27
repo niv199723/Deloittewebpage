@@ -1,0 +1,37 @@
+<html>
+<body>
+Enter the string<input type="text" id="str" onfocus="doColor(this)" onblur="resetColor(this)">
+nextbox<input type="text" id="str" onfocus="doColor(this)" onblur="resetColor(this)">
+<input type= "button" onclick="vowelCount()" value="count of vowels">
+<p id="output"> </p>
+<script>
+function vowelCount()
+{
+var str = document.getElementById("str").value.toLowerCase();
+var a=0, e=0, i=0, o=0, u=0;
+for (var j=0;j<=str.length-1;j++){
+if(str[j]=="a"){a++} else
+if(str[j]=="e"){e++} else
+if(str[j]=="i"){i++} else
+if(str[j]=="o"){o++} else
+if(str[j]=="u"){u++} 
+}
+document.getElementById("output").innerHTML="No.of a= " +a 
+                                            +"No.of e=" +e 
+											+"No.of i=" +i
+											+"No.of o=" +o 
+											+"No.of u=" +u 
+											}
+function doColor(ele)
+	{
+		ele.style.backgroundColor = 'red';
+		ele.style.color = 'blue';
+	}
+function resetColor(ele)
+	{
+	    ele.style.backgroundColor = 'yellow';
+		ele.style.color = 'black';
+	}										
+</script>
+</body>
+</html>
