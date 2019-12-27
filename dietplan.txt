@@ -1,0 +1,23 @@
+DIET MANAGEMENT SYSTEM
+
+Login and Signup
+
+if login then validate then Diet plan and workout according to their plans.
+
+if signup then signup using username Email id and Password 
+
+then enter basic information(Name, phoneno, weight, bloodgroup, age, gender, wakeup time and bed time
+
+Ask whether only diet plan or only workout or both.
+
+Then according to the needs, weight and age plans is displayed.
+
+According to the needs, weight and age payment is also displayed.
+
+2 days free trial.
+
+Then 28 days diet plan.
+
+In database with the help of Email id we will fetch details and display the dataplan
+
+ 
