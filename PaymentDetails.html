@@ -1,0 +1,57 @@
+<html>
+<head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="../Project/delcss1.css">
+</head>
+<body>
+<script src="../Project/demojs.js">
+</script>
+<div class="container">
+            
+<form class="form-horizontal" role="form" onsubmit="return paymentValidation()">
+<div class="row"> 
+	<div class="col-lg-12" style="background-color: black; font-size:50px; color:white">DIET MANAGEMENT SYSTEM
+	<img src = "../Project/logo.jpg" height = "100px" width = "100px" alt="no image found" align="right"></div>
+</div>
+<div class="row"> 
+	<div class="col-lg-12"><h3>PAYMENT DETAILS</h3></div>
+</div>
+<div class="row"> 
+	<div class="col-lg-2"><label>Card Number</label>
+	</div>
+	<div class="col-sm-4">          
+		<input id="cardnum" onchange="cardValidation()" type="text" placeholder="Enter your card num"></div>
+		<span id="errornum"></span>	
+</div>
+<div class="row"> 
+	<div class="col-sm-2"><label>Card Holder name</label>
+	</div>
+	<div class="col-sm-4">
+		<input type= "text" id="cardholname" onchange="cardholderValidation()" placeholder="Enter Cardholder name"></div>
+		<span id="errorname"></span>
+	</div>
+<div class="row"> 
+	<div class="col-sm-2"><label>CVV</label>
+	</div>
+	<div class="col-sm-4">
+		<input type= "text" name="cvvn" id ="cvvnum" onchange="cvvValidation()" placeholder="Enter CVV"></div>
+		<span id="errorcvv"></span>
+	</div>
+<div class="row">                   
+	<div class="col-sm-2"><label>Expiry Date</label>
+</div>
+	<div class="col-sm-4">          
+    <input type="date" onchange="dateValidation()" id="dt&time"></div> 
+	<span id="errordate"></span>
+</div>     
+<div class="row">
+	<div class="col-sm-2">
+		<input type="submit" value="Submit payment details"></div>
+</div>
+</form>
+</div>
+</body>
+</html>
+
+
